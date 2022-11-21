@@ -144,6 +144,13 @@
     ajv-formats "^2.1.0"
     lodash "^4.17.15"
 
+"@jsonforms/examples@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@jsonforms/examples/-/examples-3.0.0.tgz#ee88d372c34f822d6eaba9b50b6c4936938da5f1"
+  integrity sha512-ebQ71BmgPux4oRbeh36DMGfuIant7ZBBceognlqXnc6ZYSY04RSMKTEMVFNTklc4SSoax7AM64UXO55leFbT5A==
+  dependencies:
+    ajv-i18n "^3.5.0"
+
 "@jsonforms/material-renderers@^3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@jsonforms/material-renderers/-/material-renderers-3.0.0.tgz#573b5d4a8e28e3eab9130201d90ee14f5ed79f60"
@@ -512,6 +519,11 @@ ajv-formats@^2.1.0:
   integrity sha512-Wx0Kx52hxE7C18hkMEggYlEifqWZtYaRgouJor+WMdPnQyEK13vgEWyVNup7SoeeoLMsr4kf5h6dOW11I15MUA==
   dependencies:
     ajv "^8.0.0"
+
+ajv-i18n@^3.5.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/ajv-i18n/-/ajv-i18n-3.6.0.tgz#321313ce421b8a656e38e0cd2872393cab0c57ce"
+  integrity sha512-F21DzmzYq9aVtY8CGGtlnQDy3rFMaFW2KRlMuCQp76KiPIkvqN+mpq5MI9EsgC0VFwj+jeLIsvVCvPOa1sobBQ==
 
 ajv@^6.10.0, ajv@^6.12.4:
   version "6.12.6"
